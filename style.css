@@ -19,6 +19,7 @@
     flex-wrap:wrap ;
     width: 560px;
     height: 560px;
+    margin: 35px auto;
 }
 button{
     background-color: black;

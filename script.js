@@ -11,7 +11,6 @@ let randomrgb = ()=>{
 
 function createGrid(size){
   let sizeOfDiv =Math.floor(560/size)
-  console.log(sizeOfDiv)
   gridContainer.innerHTML = " "
   for(let i = 0 ; i < size*size ; i++ ){
   let grid = document.createElement("div");
