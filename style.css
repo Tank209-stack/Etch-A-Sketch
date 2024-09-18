@@ -23,8 +23,13 @@
 }
 button{
     background-color: black;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px;
     font-size: 20px;
-    color: blue;
+    color: white;
+}
+button:hover{
+    background-color: burlywood;
+    color: black;
+    transition: all ease 0.3s;
 }
